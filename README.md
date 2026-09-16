@@ -14,7 +14,7 @@
 | Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+|Phuntsok gyaltsen | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 
 ---
 
@@ -31,13 +31,13 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
-
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+**Clone the repository**
+*Install dependencies**
+**Make your first contribution**
+   - Create your own branch: 
+   - Make a small change and commit it
+   - Push your branch: `
+   - Open a Pull Request against `main` on GitHub
 
 ---
 
