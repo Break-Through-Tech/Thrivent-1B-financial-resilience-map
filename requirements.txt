@@ -1,1 +1,11 @@
-
+pandas
+numpy
+scikit-learn
+statsmodels
+xgboost
+shap
+kmodes
+matplotlib
+seaborn
+jupyter
+pyreadstat
