@@ -45,9 +45,11 @@
 
 **Describe:**
 
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
+- Program Context: This project is being developed as part of the Break Through Tech AI Studio (Fall 2026 cohort).
+
+- Team Structure & Guidance: Our team works directly under the mentorship of our Challenge Advisor, Nathan Rickert (Thrivent), and our Break Through Tech AI Studio Coach, Julio Contreras.
+
+- Program Alignment: The project provides hands-on, industry-aligned experience in applying advanced machine learning to real-world challenges—progressing from survey-weighted data pipelines and baseline replication to predictive modeling, probability calibration, mixed-data segmentation, and explainable AI (XAI).
 
 ---
 
