@@ -1,0 +1,34 @@
+## Data PreProcessing Documentation & Notes
+- Keep one row per respondent. Use shedid only to identify records, check duplicates, and join work; do not use it as a model feature.
+- Retain the full raw CSV unchanged. Create a separate cleaned analysis file and document every recode, dropped variable, and filtering rule.
+- Use the codebook as the source of truth for each question, value label, skip pattern, and special code. Do not assume survey response labels are ordinal just because they are stored as numbers.
+- Convert blank cells to missing values, but keep a separate reason label whenever possible: structurally skipped/not asked, respondent refusal, or genuinely unknown.
+- Treat labeled response choices such as “Refused” and “prefer not to answer” as explicit categories during initial review; decide later whether they remain a category or become missing based on the analytic question.
+- Preserve question order and multi-select structure. Variables with suffixes such as _a, _b, and _c are separate response options, not values that should be merged into one text field.
+- Standardize binary survey items to one convention: 1 = Yes and 0 = No. Store the original text response in the raw file and record the mapping in a data dictionary.
+- Store categorical responses as categorical variables; keep the codebook’s label order for naturally ordered responses such as income bands, education, or confidence levels.
+- Use numeric type for duration and the survey weights. Screen duration for implausible or extreme completion times; it ranges from 423 to 898,185 seconds, with a median of 1,275 seconds.
+- Do not normalize identifiers, categorical codes, or survey weights. If a model needs scaling, fit the scaler on training data only and apply it unchanged to validation and test data.
+- Use weight for single-year 2025 analyses and weight_pop only when estimating U.S. population totals. Use panel_weight or panel_weight_pop only for respondents who completed both the 2024 and 2025 surveys.
+- Keep panel weights missing for non-panel respondents; do not fill them with zero or with the regular cross-sectional weight.
+- Separate source variables from the supplied derived fields near the end of the file, including race_5cat, inc_4cat_50k, educ_4cat, pay_casheqv, atleast_okay, control, malefemale, and year.
+- Expect substantial structural missingness because many questions were shown only after earlier answers. A blank in a follow-up item is not automatically a nonresponse.
+- Create a missingness report for every candidate feature: number and percent missing, likely reason, and whether the missingness follows a survey skip pattern.
+- Flag variables with very high missingness for review before modeling. In this file, 87 columns are at least 90% missing, so they should not be automatically imputed.
+- For structurally skipped follow-up questions, add a “not applicable” indicator or retain a distinct category rather than median/mode-imputing a made-up response.
+- For numeric variables with ordinary missingness, impute using a training-set statistic only, such as the median, and add a missingness indicator when the absence itself may be informative.
+- For categorical variables with ordinary missingness, use a distinct “Missing/Unknown” category unless the codebook indicates that a missing cell is a skip pattern.
+- Use a focused predictor set once the outcome is selected: demographics (for example, age category, education, employment, income band, region, household size, housing tenure), financial conditions, and earlier survey responses that are available at the intended prediction time.
+- Drop shedid, raw profile-panel dates (the pp*date fields), and other administrative fields unless there is a defensible, pre-specified reason to use them.
+- Remove or carefully control potential leakage: the target itself, direct restatements of the target, variables collected after the target event, and supplied derived variables built from the target or its components.
+- Check duplicated concepts before training. For example, do not include both a derived income category and the exact fields used to construct it unless that choice is intentional and documented.
+- One-hot encode nominal categories such as region, race/ethnicity category, employment class, and housing type. Fit the encoder on training data only and include an “unknown” option for unseen categories.
+- Ordinal-encode genuinely ordered responses, such as education, income ranges, confidence, or frequency, only after confirming the codebook order. Keep “refused” and “not applicable” separate from the numeric order.
+- Leave existing multi-select yes/no option columns as separate binary indicators after standardizing them to 0/1; do not one-hot encode each binary item again.
+- Split data into training, validation, and test sets before fitting imputers, scalers, encoders, feature selection, or any transformation that learns from the data.
+- If reporting population-representative descriptive results, apply the appropriate survey weight. Document separately whether a predictive model uses weights in training, in evaluation, or only for reporting.
+- Name the prediction target and define when it is known. (To-Do for model)
+- List the allowed predictors and the cutoff time that prevents leakage. (To-do for model)
+- Save the exact codebook version, CSV filename, cleaning script, and final feature list with the project in Git.
+- Clean up these guidelines and add to Github ReadMe
+
