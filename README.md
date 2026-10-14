@@ -13,7 +13,7 @@
 | Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
 | Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
+| Shrinidh Tanthullu    | @shri0527      | Model Interpretation  |
 |Phuntsok gyaltsen | @ | Model evaluation, performance analysis, results interpretation           |
 
 ---
