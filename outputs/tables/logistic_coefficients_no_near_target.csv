@@ -1,0 +1,35 @@
+feature,coefficient
+"categorical__ppinc7_Less than $10,000",0.9560404241104951
+categorical__A6_Not confident,0.8543717654367804
+categorical__FD3_Often not enough to eat,0.798948682458341
+categorical__FD3_Sometimes not enough to eat,0.6692515171409009
+"categorical__ppinc7_$10,000 to $24,999",0.6198235401321623
+categorical__E2B_Yes,0.5975890787189959
+categorical__ppeduc5_No high school diploma or GED,0.49178492667334295
+categorical__GH1_Pay rent,0.40303128385314113
+categorical__GH1_Neither own nor pay rent,0.37640480108998425
+categorical__I9_Varies quite often from month to month,0.2943723107826461
+categorical__A6_Don’t know,0.27585368225714557
+"categorical__ppinc7_$25,000 to $49,999",0.2553238598144808
+categorical__ppeduc5_High school graduate (high school diploma or the equivalent GED),0.21913208780507643
+categorical__ppemploy_Not working,0.1814394276159214
+categorical__ppeduc5_Some college or Associate's degree,0.17217747288606303
+numeric__pphhsize,0.1344592591814995
+categorical__I9_Occasionally varies from month to month,0.09578125644419838
+categorical__ppemploy_Working full-time,0.08678643607241894
+categorical__A6_Somewhat confident,0.08223815461705411
+categorical__ppemploy_Working part-time,0.07746072503368724
+categorical__GH1_Own your home with a mortgage or loan,0.07130509981264949
+"categorical__ppinc7_$50,000 to $74,999",-0.01822914395487786
+categorical__I9_Roughly the same amount each month,-0.04446697850481572
+"categorical__FD3_Enough, but not always the kinds of food we wanted to eat",-0.05658060975818256
+numeric__ppage,-0.17722807499820165
+categorical__ppeduc5_Bachelor's degree,-0.17863681378208346
+categorical__E2B_No,-0.2519024899969688
+"categorical__ppinc7_$75,000 to $99,999",-0.32622486639402976
+categorical__ppeduc5_Master’s degree or higher,-0.35877108486036774
+"categorical__ppinc7_$100,000 to $149,999",-0.4339419207495903
+categorical__GH1_Own your home free and clear (without a mortgage or loan),-0.5050545960337499
+"categorical__ppinc7_$150,000 or more",-0.7071053042366148
+categorical__A6_Very confident,-0.8667770135889561
+categorical__FD3_Enough of the kinds of food we wanted to eat,-1.0659330011190387

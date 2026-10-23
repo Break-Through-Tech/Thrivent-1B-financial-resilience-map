@@ -1,41 +1,41 @@
 feature,coefficient
-categorical__B2_Finding it difficult to get by,0.9695231264351531
-categorical__EF1_No,0.8950083622697176
-"categorical__ppinc7_Less than $10,000",0.7479319798523374
-categorical__FD3_Sometimes not enough to eat,0.48879643220921454
-categorical__FD3_Often not enough to eat,0.4282655644097205
-categorical__E2B_Yes,0.3994000331472537
-categorical__A6_Not confident,0.38729513002748495
-"categorical__ppinc7_$10,000 to $24,999",0.38696737608772336
-categorical__B2_Just getting by,0.365893463632753
-categorical__ppeduc5_No high school diploma or GED,0.31597591477221604
-categorical__GH1_Pay rent,0.26942271949501684
-categorical__A6_Don’t know,0.2637839179567279
-categorical__GH1_Neither own nor pay rent,0.21150077972530257
-categorical__ppeduc5_Some college or Associate's degree,0.16420631583348144
-"categorical__ppinc7_$25,000 to $49,999",0.16284918647190674
-categorical__ppemploy_Not working,0.154147647922717
-categorical__I9_Varies quite often from month to month,0.14281242070613315
-categorical__ppeduc5_High school graduate (high school diploma or the equivalent GED),0.10851409543620973
-categorical__I9_Occasionally varies from month to month,0.0875767431791457
-numeric__pphhsize,0.08566967060704897
-categorical__A6_Somewhat confident,0.03113097426660102
-categorical__ppemploy_Working part-time,0.022771742332706634
-categorical__ppemploy_Working full-time,0.0033552038537409978
-categorical__GH1_Own your home with a mortgage or loan,-0.017702650765218177
-"categorical__ppinc7_$50,000 to $74,999",-0.029645681343540505
-categorical__I9_Roughly the same amount each month,-0.050114569776114705
-"categorical__FD3_Enough, but not always the kinds of food we wanted to eat",-0.05130598138768289
-categorical__ppeduc5_Bachelor's degree,-0.13500870606622714
-numeric__ppage,-0.16408870466164638
-categorical__E2B_No,-0.2191254390380886
-categorical__ppeduc5_Master’s degree or higher,-0.2734130258665154
-categorical__GH1_Own your home free and clear (without a mortgage or loan),-0.2829462543459349
-"categorical__ppinc7_$75,000 to $99,999",-0.2966495289649516
-"categorical__ppinc7_$100,000 to $149,999",-0.33111815037641545
-categorical__B2_Doing okay,-0.331478157727418
-"categorical__ppinc7_$150,000 or more",-0.4600605876178953
-categorical__A6_Very confident,-0.5019354281416503
-categorical__FD3_Enough of the kinds of food we wanted to eat,-0.6854814211220889
-categorical__EF1_Yes,-0.7147337681605556
-categorical__B2_Living comfortably,-0.8236638382313239
+categorical__B2_Finding it difficult to get by,0.9695231264351754
+categorical__EF1_No,0.8950083622697089
+"categorical__ppinc7_Less than $10,000",0.7479319798523295
+categorical__FD3_Sometimes not enough to eat,0.48879643220927577
+categorical__FD3_Often not enough to eat,0.42826556440965236
+categorical__E2B_Yes,0.39940003314721856
+categorical__A6_Not confident,0.38729513002750293
+"categorical__ppinc7_$10,000 to $24,999",0.3869673760877225
+categorical__B2_Just getting by,0.3658934636327723
+categorical__ppeduc5_No high school diploma or GED,0.31597591477211306
+categorical__GH1_Pay rent,0.26942271949501784
+categorical__A6_Don’t know,0.2637839179567366
+categorical__GH1_Neither own nor pay rent,0.211500779725242
+categorical__ppeduc5_Some college or Associate's degree,0.16420631583347822
+"categorical__ppinc7_$25,000 to $49,999",0.162849186471913
+categorical__ppemploy_Not working,0.15414764792274233
+categorical__I9_Varies quite often from month to month,0.1428124207060774
+categorical__ppeduc5_High school graduate (high school diploma or the equivalent GED),0.10851409543621932
+categorical__I9_Occasionally varies from month to month,0.08757674317917424
+numeric__pphhsize,0.08566967060705133
+categorical__A6_Somewhat confident,0.031130974266587116
+categorical__ppemploy_Working part-time,0.02277174233268765
+categorical__ppemploy_Working full-time,0.0033552038537242876
+categorical__GH1_Own your home with a mortgage or loan,-0.017702650765172457
+"categorical__ppinc7_$50,000 to $74,999",-0.029645681343539614
+categorical__I9_Roughly the same amount each month,-0.050114569776094776
+"categorical__FD3_Enough, but not always the kinds of food we wanted to eat",-0.05130598138769305
+categorical__ppeduc5_Bachelor's degree,-0.13500870606620805
+numeric__ppage,-0.1640887046616614
+categorical__E2B_No,-0.21912543903806347
+categorical__ppeduc5_Master’s degree or higher,-0.2734130258664462
+categorical__GH1_Own your home free and clear (without a mortgage or loan),-0.2829462543459329
+"categorical__ppinc7_$75,000 to $99,999",-0.2966495289649332
+"categorical__ppinc7_$100,000 to $149,999",-0.33111815037644937
+categorical__B2_Doing okay,-0.3314781577274196
+"categorical__ppinc7_$150,000 or more",-0.4600605876178886
+categorical__A6_Very confident,-0.5019354281416722
+categorical__FD3_Enough of the kinds of food we wanted to eat,-0.6854814211220761
+categorical__EF1_Yes,-0.7147337681605549
+categorical__B2_Living comfortably,-0.8236638382313732
